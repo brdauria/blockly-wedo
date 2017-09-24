@@ -1,5 +1,5 @@
 define([
-	"../../lib/mustache"
+	"mustache"
 ],function(
 	Mustache
 ){

@@ -1,0 +1,59 @@
+{
+  "_from": "bglib",
+  "_id": "bglib@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha1-7ogUMNRrC/oFEZYu4wZJMQ+Ousc=",
+  "_location": "/bglib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bglib",
+    "name": "bglib",
+    "escapedName": "bglib",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bglib/-/bglib-0.0.9.tgz",
+  "_shasum": "ee881430d46b0bfa0511962ee30649310f8ebac7",
+  "_spec": "bglib",
+  "_where": "/Users/bdauria/Desktop/blockly-modified/app",
+  "author": {
+    "name": "Jon McKay",
+    "email": "jon@technical.io"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bleadvertise": "*"
+  },
+  "deprecated": false,
+  "description": "Create and parse packets for the BlueGiga BLE112 and BLE113",
+  "directories": {
+    "lib": "libraries",
+    "test": "Test script"
+  },
+  "hardware": {
+    "./test": false
+  },
+  "keywords": [
+    "bluetooth",
+    "ble",
+    "ble112",
+    "ble113",
+    "bluegiga",
+    "low",
+    "energy"
+  ],
+  "license": "MIT",
+  "main": "bglib.js",
+  "name": "bglib",
+  "scripts": {
+    "test": "./test/test.js"
+  },
+  "version": "0.0.9"
+}

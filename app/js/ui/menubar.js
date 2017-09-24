@@ -100,7 +100,7 @@ define([
   		  el.append('<li data-value="' + item.id + '"><a href="#">'+ item.name + '</a></li>');
   		});
   	} else {
-  		el.append('<li class="disabled"><a href="#">' + lang.get("NO_PORTS") + '</a></li>');
+  		el.append('<li class="disabled"><a href="#">' + lang.ui.get("NO_PORTS") + '</a></li>');
   	}
     selectMenuItem(el, selectedIndex);
   }

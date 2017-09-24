@@ -1,0 +1,55 @@
+{
+  "_from": "bleadvertise",
+  "_id": "bleadvertise@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-zmQ5jzKewtuqYFy0suyN7T0fYAo=",
+  "_location": "/bleadvertise",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bleadvertise",
+    "name": "bleadvertise",
+    "escapedName": "bleadvertise",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/bglib"
+  ],
+  "_resolved": "https://registry.npmjs.org/bleadvertise/-/bleadvertise-0.1.1.tgz",
+  "_shasum": "ce64398f329ec2dbaa605cb4b2ec8ded3d1f600a",
+  "_spec": "bleadvertise",
+  "_where": "/Users/bdauria/Desktop/blockly-modified/app",
+  "author": {
+    "name": "Technical Machine",
+    "email": "team@technical.io"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Parse and generate Bluetooth Low Energy peripheral advertising packets",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "directories": {
+    "lib": "libraries",
+    "test": "Testing"
+  },
+  "keywords": [
+    "bluetooth",
+    "low",
+    "energy",
+    "packet",
+    "advertise",
+    "parse",
+    "generate"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bleadvertise",
+  "version": "0.1.1"
+}

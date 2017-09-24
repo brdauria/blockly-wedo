@@ -1,0 +1,54 @@
+/*
+
+NB all selectors are qualified with the parent panel ID to prevent collision
+
+*/
+#pane-wedo2 .well {
+	margin: 15px 0 5px 0
+}
+
+#pane-wedo2 .lbl {
+  font-weight: bold;
+}
+
+#pane-wedo2 .table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#pane-wedo2 col:nth-of-type(1) {
+  width: 10%;
+}
+#pane-wedo2 #pane-wedo2 col:nth-of-type(2) {
+  width: 70%;
+}
+#pane-wedo2 col:nth-of-type(3) {
+  width: 20%;
+}
+
+#pane-wedo2 th {
+  text-align: center;
+}
+#pane-wedo2 .slot-type{
+  padding-left: 20px !important;
+}
+#pane-wedo2 .slot-value {
+  text-align: center;
+}
+
+#pane-wedo2 .nav-tabs {
+  border-bottom: none;
+}
+
+#pane-wedo2 .req {
+  display: none;
+}
+
+#pane-wedo2 .req div {
+  display: inline-block;
+  font-size: 8px;
+}
+
+#pane-wedo2 .table-wrapper {
+    margin-top: 15px;
+}

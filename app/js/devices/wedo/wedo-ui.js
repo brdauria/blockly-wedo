@@ -1,6 +1,6 @@
 define([
   "jquery"
-  ,"../../ui/ui"
+  ,"ui"
   ,"../../lang"
   ,"./wedo-names"
 ], function($, ui, lang, wedoNames) {
@@ -33,7 +33,6 @@ define([
   }
 
   function makeSlotGroup(index) {
-
       var slot0Id = 'slot-' + (index + '-0');
       var slot1Id = 'slot-' + (index + '-1');
 
@@ -51,9 +50,9 @@ define([
         <td class="slot-value"></td>\
       </tr>';
 
-      getTBody().append(html);
+     getTBody().append(html);
 
-      getTBody().find("tr").sort(function(a,b) {
+     getTBody().find("tr").sort(function(a,b) {
            return a.id > b.id;
       }).appendTo(getTBody());
 
@@ -103,7 +102,6 @@ define([
   }
 
   self.updateSlots = function(slots, outputStates, index){
-
     var slotGroup = slotGroups[index];
     if (!slotGroup) slotGroup = makeSlotGroup(index);
 

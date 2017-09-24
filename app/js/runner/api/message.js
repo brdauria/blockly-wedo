@@ -13,14 +13,14 @@ define([
       $('.message').empty();
     },
     say: function(msg) {
-      chrome.tts.speak(msg, {'enqueue': true});
+      // chrome.tts.speak(msg, {'enqueue': true});
     },
     sayStop: function() {
-      chrome.tts.stop();
+      // chrome.tts.stop();
     },    
     reset: function() {
       self.clear();
-      chrome.tts.stop();
+      // chrome.tts.stop();
     }
   }
 

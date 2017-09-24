@@ -3,10 +3,7 @@ define([
   , "../events"
   , "../ui/textsetter"
 
-], function(
-  $
-  , events
-  , textsetter){
+], function($, events, textsetter){
 
     events.inited.addOnce(function(){
       textsetter.init();

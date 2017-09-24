@@ -9,8 +9,8 @@ define([
   self.forRangeParser = function(code) {
     var whiteR = "[\\s]*";
 
-    //console.log("pre range processed");
-    //console.log(code);
+    console.log("pre range processed");
+    console.log(code);
 
     //remove these lines from code completely
     var ignore = [

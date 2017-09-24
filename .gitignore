@@ -1,3 +1,5 @@
 node_modules
 todo.txt
 release/package/*
+.idea
+.DS_Store

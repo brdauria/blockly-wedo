@@ -70,7 +70,8 @@ define([
       var bTypeBytes = bytes[5];
 
       var aType, bType;
-      if (slots.length == 0 || (outputs.okayToReadIDs(conn) && (aTypeBytes != conn.aTypeBytes || bTypeBytes != conn.bTypeBytes)))
+      if (slots.length == 0 ||
+          (outputs.okayToReadIDs(conn) && (aTypeBytes != conn.aTypeBytes || bTypeBytes != conn.bTypeBytes)))
       {
         aType = getType(aTypeBytes);
         bType = getType(bTypeBytes);
