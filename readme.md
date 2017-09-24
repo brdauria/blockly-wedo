@@ -34,3 +34,7 @@ This app uses the following open source projects
 - [Mustache.js](https://github.com/janl/mustache.js)
 - [RequireJS](https://github.com/jrburke/requirejs)
 - [Signals](https://github.com/millermedeiros/js-signals)
+
+Notes
+-
+It requires the Bluetooth dongle Ble112
