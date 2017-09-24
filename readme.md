@@ -1,4 +1,4 @@
-Blockly for WeDo
+Blockly for WeDo <span style="color:blue">and WeDo2</span>.
 =
 A [Blockly](https://developers.google.com/blockly/) editor Chrome App for controlling Lego WeDo devices. It should support up to 13 WeDo devices.
 
